@@ -1,3 +1,14 @@
+# Disable_TNT
+
+Disable_TNT is a legacy PocketMine-MP plugin intended to let TNT explode without breaking nearby blocks. Its manifest declares plugin API 2.0.0 and version 0.1. It has not been verified on Axolotl-PM 5.x.
+
+The manifest has no named author and credits Ghast Noob for editing and Vietnamese localization in a comment. This repository has no LICENSE file or verified permission to redistribute modified builds. The source and historical translations are preserved; no Axolotl-PM 5 port, PHAR or stable release is provided.
+
+The historical text below mentions version 1.1.x, which differs from [plugin.yml](plugin.yml). Treat it as an archived description rather than current compatibility information.
+
+## Historical descriptions
+
+```text
 * Esperanto:
 # PluginName Nomo: Malŝalti TNT
 # Informa kromprogramo: Faru TNT-eksplodon Sed Ne Rompi La Blokon Ĉirkaŭe!
@@ -36,3 +47,4 @@
 #########################################
 Plugin Được Chỉnh Sửa Và Việt Hóa Bởi: Ghast Noob
 #########################################
+```
