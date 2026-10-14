@@ -1,21 +1,22 @@
 <?php
+
+declare(strict_types=1);
+
 namespace DisableTNT;
 
-use pocketmine\plugin\PluginBase;
+use pocketmine\entity\object\PrimedTNT;
+use pocketmine\event\entity\EntityPreExplodeEvent;
 use pocketmine\event\Listener;
-use pocketmine\utils\TextFormat;
-use pocketmine\event\entity\ExplosionPrimeEvent;
+use pocketmine\plugin\PluginBase;
 
-class Main extends PluginBase implements Listener{
-	
-	public function onEnable(){
+final class Main extends PluginBase implements Listener{
+	protected function onEnable() : void{
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
-		$this->getLogger()->info(TextFormat::GREEN . "Plugin Đã Được Kích Hoạt");
 	}
-	public function onExplosionPrime(ExplosionPrimeEvent $event){
-		$event->setBlockBreaking(false);
-	}
-	public function onDisable(){
-		$this->getLogger()->info(TextFormat::RED . "Plugin Đã Bị Vô Hiệu Hóa Do Bạn Dừng Máy Chủ Hoặc Có Lỗi Phát Sinh");
+
+	public function onEntityPreExplode(EntityPreExplodeEvent $event) : void{
+		if($event->getEntity() instanceof PrimedTNT){
+			$event->setBlockBreaking(false);
+		}
 	}
 }
