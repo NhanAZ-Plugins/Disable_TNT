@@ -1,6 +1,14 @@
 # Disable_TNT
 
-Disable_TNT prevents primed TNT from breaking blocks while preserving its explosion. Other entity and block explosions keep their normal block behavior.
+TNT explosion block protection for Axolotl-PM API 5.
+
+[![CI](https://github.com/NhanAZ-Plugins/Disable_TNT/actions/workflows/build.yml/badge.svg)](https://github.com/NhanAZ-Plugins/Disable_TNT/actions/workflows/build.yml)
+[![Latest release](https://img.shields.io/github/v/release/NhanAZ-Plugins/Disable_TNT)](https://github.com/NhanAZ-Plugins/Disable_TNT/releases/latest)
+[![Discord](https://img.shields.io/discord/986553214889517088?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/j2X83ujT6c)
+
+## Overview
+
+This plugin targets the PocketMine-MP and Axolotl-PM API 5 ecosystem and is maintained under [NhanAZ-Plugins](https://github.com/NhanAZ-Plugins).
 
 ## Compatibility and verification
 
@@ -16,5 +24,3 @@ The original source was committed by NhanAZ. The historical manifest credits Gha
 ## Build
 
 The GitHub Actions workflow uses [DevTools](https://github.com/NhanAZ/DevTools) to analyze, build and validate the plugin PHAR.
-
-For questions about the NhanAZ ecosystem, visit [NhanAZ Discord](https://discord.gg/j2X83ujT6c).
