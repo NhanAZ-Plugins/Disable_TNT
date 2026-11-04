@@ -16,8 +16,13 @@ TNT explosion block protection for Axolotl-PM API 5.
 
 ## History and attribution
 
-The original source was committed by NhanAZ. The historical manifest credits Ghast Noob for editing and Vietnamese localization. Older translated descriptions are preserved in the [initial source history](https://github.com/NhanAZ-Plugins/Disable_TNT/commits/main/).
+The original source was committed by NhanAZ. The historical manifest credits NhanAZ for editing and Vietnamese localization. Older translated descriptions are preserved in the [initial source history](https://github.com/NhanAZ-Plugins/Disable_TNT/commits/main/).
 
 ## Build
 
 The GitHub Actions workflow uses [DevTools](https://github.com/NhanAZ/DevTools) to analyze, build and validate the plugin PHAR.
+
+
+## Credits
+
+Authors: NhanAZ.
