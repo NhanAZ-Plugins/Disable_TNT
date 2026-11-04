@@ -4,5 +4,5 @@ main: DisableTNT\Main
 version: 1.0.0
 api: 5.0.0
 load: POSTWORLD
-author: NhanAZ, Ghast Noob
+authors: ["NhanAZ"]
 description: Prevents TNT explosions from breaking blocks
